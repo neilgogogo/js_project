@@ -1,15 +1,4 @@
-let sideLength = 200; // 大圆的直径 200
-let gap = 10; // 大圆之间的间隔 10
-let rows = 5; // 行数
-let cols = 8; // 列数
-let rotationSpeed = 0.01; // 自旋速度 0.01
-let smallEllipseDiameter = 14; // 小椭圆的直径 14
-let smallEllipseCount = 12; // 每个大圆的小椭圆数量 12
-let smallEllipseDistance = 20; // 小椭圆距离大圆的距离 20
-let concentricCircles = 4; // 同心圆的数量 4
-let concentricCircleColors = []; // 同心圆的颜色
-let dottedCircles = 3; // 每层同心圆虚线环的数量 3
-let rotateSpeedPressed = 1;
+
 
 let timer;
 
