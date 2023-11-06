@@ -1,21 +1,6 @@
 
 
-let timer;
 
-//生成随机色值，三维数组
-function genRandomColors() {
-    concentricCircleColors = []; //  重置同心圆的颜色
-    // 生成随机的同心圆颜色值
-    for (let i = 0; i < rows; i++) {
-        concentricCircleColors.push([]); // 初始化二维数组
-        for (let j = 0; j < cols; j++) {
-            concentricCircleColors[i].push([]);
-            for (let k = 0; k < concentricCircles; k++) {
-                concentricCircleColors[i][j].push(color(random(255), random(255), random(255)));
-            }
-        }
-    }
-}
 //获取对比色
 function getContrastColor(hexColor) {
     let c = color(hexColor); // 创建颜色
